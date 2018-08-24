@@ -1,0 +1,23 @@
+{
+    "name": "kolah/php-graphql-client-base",
+    "description": "Base types for GraphQL Client for PHP",
+    "type": "library",
+    "require": {
+        "ext-json": "*",
+        "php-http/httplug": "^1.0",
+        "php-http/message-factory": "^1.0",
+        "phpoption/phpoption": "^1.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kolah\\GraphQL\\": "src/GraphQL"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Krzysztof Kolasiak",
+            "email": "krzysztof.kolasiak@docplanner.com"
+        }
+    ]
+}
