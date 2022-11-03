@@ -4,7 +4,7 @@
     "type": "library",
     "require": {
         "ext-json": "*",
-        "php-http/httplug": "^1.0",
+        "php-http/httplug": "^1.0 || ^2.0",
         "php-http/message-factory": "^1.0",
         "phpoption/phpoption": "^1.5"
     },
